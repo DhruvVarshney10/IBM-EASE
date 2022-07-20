@@ -17,21 +17,25 @@ function Header(){
                 <SearchIcon className="header__searchIcon"/>
             </div>
             <div className="header__nav">
-
-                <div className='header__option'>
-                    <span className='header__optionLineOne'>Set</span>
-                    <span className='header__optionLineTwo'>Location</span>
-                </div>
-
+                
+            <div className='header__option'>
+                        <span className='header__optionLineOne'>Set</span>
+                        <span className='header__optionLineTwo'>Location</span>
+            </div>
+                 
+            <div className="header_nav">
+            {/* <Link to='/login_test'> */}
                 <div className='header__option'>
                     <span className='header__optionLineOne'>Account</span>  
                     <span className='header__optionLineTwo'>Sign In</span>
                 </div>
+            {/* </Link> */}
+            </div>
                 <div className="header__optionBasket">
                      <ShoppingBasketIcon/>
                      <span className="header__optionLineTwo header__basketCount">0</span>
                 </div>
-
+                   
             </div>
     </div>
     )

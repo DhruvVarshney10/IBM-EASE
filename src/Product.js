@@ -14,7 +14,7 @@ function Product({title, Distance, Donor, rating, image}){
                 </p>
                 <div className="product__rating">
                     <text>Donor Name: </text>
-                    <text>{Donor}</text>
+                    <text>{ Donor}</text>
                 </div>
                 <div className="product__rating">
                     <text>Donor Rating: </text>

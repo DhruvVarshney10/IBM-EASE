@@ -7,11 +7,9 @@ function login() {
         e.preventDefault();
         //login authentication
     } 
-    const register= e =>{
+    const register = e =>{
         e.preventDefault();
         //record user accounts
-
-
     }
 
   return (
@@ -37,14 +35,8 @@ function login() {
             <button onClick = {register}
             className = 'login_registerButton'>Create your "App-Name" account</button>
 
-
-            
-
         </div>
     </div>
-    
-
-    
   )
 }
 

@@ -5,6 +5,7 @@ import HcImage from './images/homecover6.jpg'
 import Product from "./Product";
 import cereal from "./images/cereal.jfif"
 
+
 function Home(){
     return <div className="home">
         <div className="home__container">

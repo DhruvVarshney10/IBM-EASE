@@ -4,6 +4,8 @@ import Header from "./components/Header.js";
 import Home from "./home.js";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Checkout from "./Checkout";
+import Login from "./login";
+
 //import { Switch } from "@mui/material";
 
 
@@ -12,14 +14,12 @@ function App() {
     <Router>
       <div className="app">    
       <Header/>
-      <Home/>
-          {/* <Router>
-              <Routes>
-                <Route exact path="/" element={<Home />} />
-              </Routes>
-          </Router> */}
-            
-          
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/checkout" element={<Checkout/>}/>
+            <Route exact path="/login" element={<Login/>}/>
+
+          </Routes>
       </div>
     </Router>
   );

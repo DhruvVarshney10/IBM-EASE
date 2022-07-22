@@ -25,12 +25,14 @@ function Header(){
                     <span className='header__optionLineTwo'>Location</span>
                 </div>
             <div >
-            
+
+            <Link to="/login">
             <div className='header__option'>
                 <span className='header__optionLineOne'>Account</span>  
                 <span className='header__optionLineTwo'>Sign In</span>
             </div>
-            
+            </Link>
+
             </div>
             <Link to="/checkout">
                 <div className="header__optionBasket">

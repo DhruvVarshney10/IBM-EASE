@@ -1,33 +1,32 @@
-import React from 'react'
-import './Login.css'
+import React, { useState } from 'react'
+import './login.css'
 function login() {
     const[email, setEmail] = useState('');
-    const[password, setpassword] = useState('');
+    const[password, setPassword] = useState('');
     const signIn = e =>{
         e.preventDefault();
         //login authentication
     } 
+    
     const register = e =>{
         e.preventDefault();
-        //record user accounts
-    }
+        //login authentication
+    } 
 
   return (
     <div className = 'login'>
         <div className = 'login-container'>
             <h1> Sign in</h1>
-            <form>
-                <h5>E-mail</h5>
-                <input type = 'text' value = {email} onChange = 
-                {e => setEmail(e.target.value)}/>
+            
+                 <form>
+                     <h5>E-mail</h5>
+                     <input type='text' value={email} onChange={e => setEmail(e.target.value)} />
 
-                <h5>Password</h5>
-                <input type = 'text' value = {password} onChange = 
-                {e =>setpassword(e.target.value) }/>
-                
-                <button onClick = {signIn}
-                className = 'login_signInButton'>Sign-In</button>
-            </form>
+                     <h5>Password</h5>
+                     <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
+
+                     <button type='submit' onClick={signIn} className='login__signInButton'>Sign In</button>
+                 </form>
             <p>
                 By signing-in you agree to our application Policy. Please
                 see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
@@ -41,3 +40,4 @@ function login() {
 }
 
 export default login
+ 

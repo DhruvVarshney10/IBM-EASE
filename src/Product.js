@@ -1,8 +1,24 @@
 import React from "react";
 import './Product.css'
 import ProductOne from "./images/cereal.jfif"
+import {useStateValue} from "./StateProvider"
 
 function Product({title, Distance, Donor, rating, image}){
+    const [state, dispatch] = useStateValue();
+
+    const addToBasket = () => {
+        // dispatch the item into the data layer
+        dispatch({
+          type: "ADD_TO_BASKET",
+          item: {
+            title: title,
+            Distance: Distance,
+            Donor: Donor,
+            rating: rating,
+            image: image,
+          },
+        });
+      };
     return(
         <div className="product">
             <div className="product__info">
@@ -27,7 +43,7 @@ function Product({title, Distance, Donor, rating, image}){
                 
             </div>
             <img src={image} alt=""/>
-            <button>Accept Item</button>
+            <button onClick={addToBasket}>Add to Basket</button>
         </div>
 
 

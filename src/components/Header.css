@@ -2,7 +2,8 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #0565e2;
+    background-color: ##808080
+    ;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -11,7 +12,7 @@
   .header__searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: #cd9042;
+    background-color: #ba0001;
   }
 
   .header__logo {
@@ -20,6 +21,7 @@
     object-fit: contain;
     margin: 0 20px;
     margin-top: 18px;
+    color: #ba0001;
   }
   
   .header__search {
@@ -40,16 +42,18 @@
   .header__logo2 {
     padding: 20px;
     height: 22px !important;
-    background-color: #cd9042;
+    background-color: ;
   }
   
   .header__optionLineOne {
     font-size: 10px;
+    color: #ba0001;
   }
   
   .header__optionLineTwo {
     font-size: 13px;
     font-weight: 800;
+    color: #ba0001;
   }
   
   .header__nav {
@@ -67,7 +71,7 @@
   .header__optionBasket {
     display: flex;
     align-items: center;
-    color: white;
+    color: #ba0001;
   }
   
   .header__basketCount {

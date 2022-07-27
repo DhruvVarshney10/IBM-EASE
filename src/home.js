@@ -1,9 +1,16 @@
 import { requirePropFactory } from "@mui/material";
 import React from "react";
 import "./home.css";
-import HcImage from './images/homecover6.jpg'
+import HcImage from './images/checkoutimg2.jpg'
 import Product from "./Product";
 import cereal from "./images/cereal.jfif"
+import spam from "./images/spam.jpg"
+import jeans from "./images/jeans.webp"
+import corncan from "./images/corncan.png"
+import papertowls from "./images/papertowel.webp"
+import beans from "./images/beans.webp"
+import milk from "./images/milk.webp"
+
 
 
 
@@ -16,76 +23,81 @@ function Home(){
                 <Product title="Mini Wheat cereal"
                 Distance={2.5}
                 Donor="Mike Hammy"
-                rating={5}
+                rating={3}
                 image={cereal}/>
-                <Product/>
-
-                <Product title="Clothing: Tops"
+                
+                <Product title="Spam"
                 Distance={1.5}
                 Donor="Joe McFlurry"
                 rating={4}
-                image={cereal}/>
-                <Product/>
+                image={spam}/>
+
+            <Product title="Clothing: jeans"
+                Distance={2.5}
+                Donor="Nick Boys"
+                rating={4}
+                image={jeans}/>
+                
             </div>
 
             <div className="home__row">
-                <Product title="Clothing: Bottoms"
+                <Product title="Beans"
                 Distance={2.5}
-                Donor="Mike Hammy"
-                rating={5}
-                image={cereal}/>
-                <Product/>
-
+                Donor="Food Supply"
+                rating={4}
+                image={beans}/>
+                
                 <Product title="Masks"
                 Distance={0.5}
-                Donor="Mike Hammy"
+                Donor="Help Cure"
                 rating={5}
                 image={cereal}/>
-                <Product/>
+                
             </div>
 
             <div className="home__row">
+                <Product title="Milk"
+                Distance={2.5}
+                Donor="Cow Company"
+                rating={5}
+                image={milk}/>
 
-                <Product title="Utensils"
+                <Product title="Corncan"
                 Distance={2.5}
                 Donor="Mike Hammy"
                 rating={5}
-                image={cereal}/>
-                <Product/>
-
-                <Product title="Hand Sanitizers"
-                Distance={2.5}
-                Donor="Mike Hammy"
-                rating={5}
-                image={cereal}/>
-                <Product/>
-
-            </div>
-
-            <div className="home__row">
-                <Product title="Cleaning Stuff"
-                Distance={2.5}
-                Donor="Mike Hammy"
-                rating={5}
-                image={cereal}/>
-                <Product/>
+                image={corncan}/>
 
                 <Product title="Stuff for Women"
                 Distance={2.5}
                 Donor="Mike Hammy"
                 rating={5}
                 image={cereal}/>
-                <Product/>
-            </div>
+               
+             </div>
+
 
             <div className="home__row">
-            <Product title="Bags"
-                Distance={2.5}
-                Donor="Mike Hammy"
-                rating={5}
-                image={cereal}/>
-                <Product/>
+                <Product title="Papertowels"
+                    Distance={2.5}
+                    Donor="Help Cure"
+                    rating={5}
+                    image={papertowls}/>
+
+                    <Product title="Sanitary Product"
+                    Distance={2.5}
+                    Donor="Mike Hammy"
+                    rating={5}
+                    image={cereal}/>
+
+                    <Product title="Stuff for Women"
+                    Distance={2.5}
+                    Donor="Mike Hammy"
+                    rating={5}
+                    image={cereal}/>
             </div>
+
+           
         
         </div>
 

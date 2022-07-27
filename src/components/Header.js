@@ -4,14 +4,19 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
+import logo from "C:/Users/dhruv/Desktop/LilCoders/firstapp/src/images/headerlogo.png";
+import {useStateValue} from "C:/Users/dhruv/Desktop/LilCoders/firstapp/src/StateProvider.js";
 
 function Header(){
+    const [{basket}, dispatch] = useStateValue();
     return(
         <div className="header">
                 {/* <img className="header__logo" 
                      src="https://www.pngall.com/charity-donation-png"/> */}
 
-            <VolunteerActivismIcon className="header__logo2"/>
+            {/* <VolunteerActivismIcon className="header__logo2"/> */}
+            <Link to="/">
+            <img className="header__logo2" src={logo} alt=""/></Link>
 
             <div className="header__search">        
                 <input className="header__searchInput" type="text"/>
@@ -37,7 +42,7 @@ function Header(){
             <Link to="/checkout">
                 <div className="header__optionBasket">
                      <ShoppingBasketIcon/>
-                     <span className="header__optionLineTwo header__basketCount">0</span>
+                     <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
                 </div>
             </Link>
                    

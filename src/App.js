@@ -5,6 +5,7 @@ import Home from "./home.js";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Checkout from "./Checkout";
 import Login from "./login";
+import Donor from "./donor";
 
 //import { Switch } from "@mui/material";
 
@@ -18,6 +19,8 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/checkout" element={<Checkout/>}/>
             <Route exact path="/login" element={<Login/>}/>
+            <Route exact path="/donor" element={<Donor/>}/>
+
 
           </Routes>
       </div>

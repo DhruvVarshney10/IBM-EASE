@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/LilCOders-ProtoOne/static/css/main.0c1a2a72.css",
+    "main.js": "/LilCOders-ProtoOne/static/js/main.8f1f12e8.js",
+    "static/js/787.0edbcda9.chunk.js": "/LilCOders-ProtoOne/static/js/787.0edbcda9.chunk.js",
+    "static/media/spam.jpg": "/LilCOders-ProtoOne/static/media/spam.ded0ec9b52d08ab0301f.jpg",
+    "static/media/corncan.png": "/LilCOders-ProtoOne/static/media/corncan.529feb64321e5147818d.png",
+    "static/media/cereal.jfif": "/LilCOders-ProtoOne/static/media/cereal.4c7874071994e5a81be8.jfif",
+    "static/media/checkoutimg2.jpg": "/LilCOders-ProtoOne/static/media/checkoutimg2.220ec30c04bd1120a17f.jpg",
+    "static/media/papertowel.webp": "/LilCOders-ProtoOne/static/media/papertowel.f5cd4ba029364cb03603.webp",
+    "static/media/donate.jpg": "/LilCOders-ProtoOne/static/media/donate.b5f08b110829367e7308.jpg",
+    "static/media/jeans.webp": "/LilCOders-ProtoOne/static/media/jeans.8b81e42d6a1be2fe381b.webp",
+    "static/media/beans.webp": "/LilCOders-ProtoOne/static/media/beans.78e80e7989001d59b5d7.webp",
+    "static/media/milk.webp": "/LilCOders-ProtoOne/static/media/milk.b37970614116a48aae77.webp",
+    "static/media/headerlogo5.webp": "/LilCOders-ProtoOne/static/media/headerlogo5.91756a657d2f393acac9.webp",
+    "index.html": "/LilCOders-ProtoOne/index.html",
+    "main.0c1a2a72.css.map": "/LilCOders-ProtoOne/static/css/main.0c1a2a72.css.map",
+    "main.8f1f12e8.js.map": "/LilCOders-ProtoOne/static/js/main.8f1f12e8.js.map",
+    "787.0edbcda9.chunk.js.map": "/LilCOders-ProtoOne/static/js/787.0edbcda9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c1a2a72.css",
+    "static/js/main.8f1f12e8.js"
+  ]
+}

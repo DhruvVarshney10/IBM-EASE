@@ -4,7 +4,7 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
-import logo from "C:/Users/dhruv/Desktop/LilCoders/firstapp/src/images/headerlogo.png";
+import logo from "C:/Users/dhruv/Desktop/LilCoders/firstapp/src/images/headerlogo5.webp";
 import donate from "C:/Users/dhruv/Desktop/LilCoders/firstapp/src/images/donate.jpg";
 import {useStateValue} from "C:/Users/dhruv/Desktop/LilCoders/firstapp/src/StateProvider.js";
 

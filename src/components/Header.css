@@ -15,7 +15,7 @@
   }
 
   .header__logo {
-    width: 50px;
+    width: 150px;
     object-fit: contain; 
     margin: 0px;
     margin-top: 0px;
@@ -31,7 +31,7 @@
     margin-top: 0px;
     color: #ba0001;
     size: 7000px;
-    margin-left: 40px;
+    margin-left: 4px;
   }
   
   .header__search {
